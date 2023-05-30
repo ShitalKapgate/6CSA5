@@ -1,4 +1,4 @@
-package Cookie;
+package AssingMethod;
 
 import java.util.Set;
 
