@@ -9,6 +9,8 @@ public class AddCookie {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.fb.com");
 		Cookie cooky=new Cookie("simple","123456");
+		System.out.println(cooky);
 		driver.manage().addCookie(cooky);
+	
 	}
 	}
